@@ -9,8 +9,8 @@ status](https://ci.appveyor.com/api/projects/status/github/rstub/levmaR?branch=m
 # levmaR
 
 The goal of levmaR is to provide an interface for the
-Levenberg-Marquardt optimization algorithm provided by the ‘levmar’
-library.
+Levenberg-Marquardt optimization algorithm provided by the [levmar
+library](http://users.ics.forth.gr/~lourakis/levmar/).
 
 ## Installation
 

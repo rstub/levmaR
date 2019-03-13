@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 ```
 # levmaR
 
-The goal of levmaR is to provide an interface for the Levenberg-Marquardt optimization algorithm provided by the 'levmar' library.
+The goal of levmaR is to provide an interface for the Levenberg-Marquardt optimization algorithm provided by the [levmar library](http://users.ics.forth.gr/~lourakis/levmar/).
 
 ## Installation
 
@@ -35,4 +35,3 @@ This is a basic example which shows you how to solve a common problem:
 library(levmaR)
 test_levmar()
 ```
-
