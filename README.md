@@ -1,6 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+[![Travis build
+status](https://travis-ci.org/rstub/levmaR.svg?branch=master)](https://travis-ci.org/rstub/levmaR)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/rstub/levmaR?branch=master&svg=true)](https://ci.appveyor.com/project/rstub/levmaR)
+
 # levmaR
 
 The goal of levmaR is to provide an interface for the
