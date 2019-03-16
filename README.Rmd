@@ -35,3 +35,9 @@ This is a basic example which shows you how to solve a common problem:
 library(levmaR)
 test_levmar()
 ```
+
+## Status
+
+This package was started by a [question on Stack Overflow](https://stackoverflow.com/q/55139102/8416610).
+It is currently very incomplete.
+Collaborators are welcome.

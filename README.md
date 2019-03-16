@@ -29,3 +29,9 @@ library(levmaR)
 test_levmar()
 #> Optimum found:   1.00000289e+00  1.99999760e+00
 ```
+
+## Status
+
+This package was started by a [question on Stack
+Overflow](https://stackoverflow.com/q/55139102/8416610). It is currently
+very incomplete. Collaborators are welcome.
