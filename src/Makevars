@@ -1,6 +1,6 @@
 CXX_STD = CXX11
-PKG_LIBS=-L. -llevmar  $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
-PKG_CPPFLAGS=-I./levmar/ -DSTRICT_R_HEADERS 
+PKG_LIBS=-L. -llevmar $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
+PKG_CPPFLAGS=-Ilevmar -I../inst/include -DSTRICT_R_HEADERS 
 
 all: $(SHLIB)
 $(SHLIB): liblevmar.a
@@ -9,3 +9,5 @@ LIBOBJS = levmar/lm.o levmar/Axb.o levmar/misc.o levmar/lmlec.o levmar/lmbc.o le
 
 liblevmar.a: $(LIBOBJS)
 	$(AR) rcs liblevmar.a $(LIBOBJS)
+	mkdir -p ../inst/lib
+	cp liblevmar.a ../inst/lib
